@@ -1,0 +1,73 @@
+.loginform{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.form{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px gray;
+}
+
+.form-container{
+    text-align: center;
+    margin: 60px;
+    width: 250px;
+}
+
+form p{
+    margin-top: 15px;
+    text-align: right;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.733);
+}
+
+form button{
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 50px;
+    border: none;
+}
+
+.form-container h1{
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.733);
+    font-weight: 700;
+}
+
+form input{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    margin-top: 10px;
+    border-bottom: 1px solid gray;
+    outline: none;
+}
+
+form{
+    margin-top: 20px;
+}
+
+.kunnga{
+    color: #1F75FE;
+}
+
+.login-btn{
+    color: white;
+    background-color: #1F75FE;
+    box-shadow: 2px 2px 5px #1F75FE;
+}
+
+.hover-btn{
+    color: #1F75FE;
+    box-shadow: 2px 2px 8px #888888;
+}
+
+.hover-btn:hover{
+    color: white;
+    background-color: #1F75FE;
+    text-transform: uppercase;
+}
